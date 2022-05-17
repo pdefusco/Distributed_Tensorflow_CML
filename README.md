@@ -1,4 +1,4 @@
-# Implementing distributed model training for deep learning with Cloudera Machine Learning
+# Implementing Distributed Tensorflow with Cloudera Machine Learning
 
 This repository references the Cloudera Blog Article and Distributed Tensorflow example authored by Zuling Kang, Machine Learning Senior Solutions Architect at Cloudera.
 
