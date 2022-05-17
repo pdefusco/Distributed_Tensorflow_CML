@@ -31,4 +31,4 @@ cluster_spec, session_addr = cdsw_tensorflow_utils.run_cluster(n_workers=n_worke
    memory=2, \
    worker_script="distributed_mnist_worker_script")
 
-#cdsw_tensorflow_utils.tensorboard('./distributed-mnist')
+cdsw_tensorflow_utils.tensorboard('./distributed-mnist')
