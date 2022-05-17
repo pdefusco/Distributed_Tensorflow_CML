@@ -27,6 +27,8 @@ To learn more about how to implement Distributed Computing in CML please visit t
 
 ### Instructions for Use
 
+#### Step 1
+
 Launch a CML Session with the following settings:
 
 * Editor: Workbench
@@ -36,12 +38,28 @@ Launch a CML Session with the following settings:
 * Resource Profile: 2 vCPU / 4 GiB Mem recommended
 * All other options can be left to their default values
 
+#### Step 2
+
+In the prompt on the right, run the following command to install the project requirements.
+
+```!pip3 install -r requirements.txt```
+
+![alt text](img/dist_tf_00.png)
+
+
+#### Step 3
+
 Open the "distributed-mnist.py" script and execute all the code at once by pressing on the "play" button.
 
-Observe model training on the right side of your screen. This should take a couple of minutes at most. 
+
+#### Step 4
+
+Observe model training in real time on the right side of your screen. This should take a couple of minutes at most. 
 
 ![alt text](img/dist_tf_01.png)
 
+
+#### Step 5
 
 When model training is you can open Tensorboard as shown below.
 
